@@ -1,24 +1,30 @@
-# Example headings
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Bioinformatics & AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#projects">Projects</a>
+    </nav>
 
-## Sample Section
+    <header>
+        <h1>[Your Name]</h1>
+        <p>PhD Student in Bioinformatics | AI & Machine Learning Researcher</p>
+    </header>
 
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome! I am a PhD student focusing on the intersection of biological data and machine learning architectures.</p>
+    </section>
 
-## This heading is not unique in the file
-
-TEXT 1
-
-## This heading is not unique in the file
-
-TEXT 2
-
-# Links to the example headings above
-
-Link to the sample section: [Link Text](#sample-section).
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
-
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
+    <section id="blog">
+        <h2>Latest Insights</h2>
+        </section>
+</body>
+</html>
